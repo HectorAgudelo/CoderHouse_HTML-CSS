@@ -10,12 +10,16 @@
       href="./../assets/icons8-circuit-100.png"
       type="image/x-icon"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
     <link rel="stylesheet" href="./../styles/contactUs.css" />
     <link rel="stylesheet" href="./../styles/generalStyles.css" />
   </head>
 
-  <body>
-    <div class="container">
+  <body class="container">
+   
       <header class="header">
         <!-- Barra de navegacion con logo -->
 
@@ -29,6 +33,13 @@
             <h3 class="header__name">Exotix Hardware</h3>
           </div>
         </a>
+
+        <input type="checkbox" id="header-toggle" />
+        <label class="header-icon" for="header-toggle">
+          <a id="header-icon">
+            <i class="fa fa-bars"></i>
+          </a>
+        </label>
 
         <nav class="header__nav">
           <ul class="header__list">
@@ -86,28 +97,37 @@
       </main>
       <!-- footer con enlaces a redes sociales y tienda amazon -->
       <footer class="footer">
-        <img
-          class="footer__icon"
-          src="./../assets/icons8-facebook-50.png"
-          alt="facebook"
-        />
-        <img
-          class="footer__icon"
-          src="./../assets/icons8-linkedin-circled-50.png"
-          alt="linkedin"
-        />
-        <img
-          class="footer__icon"
-          src="./../assets/icons8-twitter-50.png"
-          alt="twitter"
-        />
-        <img
-          class="footer__icon"
-          src="./../assets/icons8-amazon-50.png"
-          alt="amazon"
-        />
+        <a href="https://www.facebook.com/login/" target="_blank">
+            <img
+        class="footer__icon"
+        src="./../assets/icons8-facebook-50.png"
+        alt="facebook"
+      />
+        </a>
+      <a href="https://www.linkedin.com/" target="_blank">
+          <img
+        class="footer__icon"
+        src="./../assets/icons8-linkedin-circled-50.png"
+        alt="linkedin"
+      />
+      </a>
+    <a href="https://twitter.com/?lang=en" target="_blank">
+      <img
+        class="footer__icon"
+        src="./../assets/icons8-twitter-50.png"
+        alt="twitter"
+      />
+    </a>
+      <a href="https://www.amazon.com/" target="_blank">
+           <img
+        class="footer__icon"
+        src="./../assets/icons8-amazon-50.png"
+        alt="amazon"
+      />
+      </a>
+   
         <p class="footer__text">All Rights Reserved</p>
       </footer>
-    </div>
+
   </body>
 </html>
