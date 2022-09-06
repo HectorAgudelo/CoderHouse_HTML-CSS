@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="./../assets/icons8-circuit-100.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./../styles/contactUs.css" />
+    <link rel="stylesheet" href="./../styles/generalStyles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <!-- Barra de navegacion con logo -->
+
+        <a class="header__brandLink" href="./../index.html">
+          <div class="header__brand">
+            <img
+              class="header__logo"
+              src="./../assets/icons8-circuit-100.png"
+              alt="logo"
+            />
+            <h3 class="header__name">Exotix Hardware</h3>
+          </div>
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <a class="header__section" href="./../index.html">Home</a>
+            <a class="header__section" href="./about.html">About</a>
+            <a class="header__section" href="./product.html">Products</a>
+            <a class="header__section" href="./contactUs.html">Contact Us</a>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="main__formContainer">
+          <!-- forma para enviar mensajes a la compania -->
+          <form action="" class="main__form">
+            <input class="main__input" type="text" placeholder="Name" />
+            <input
+              class="main__input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            />
+            <textarea
+              class="main__textArea"
+              name="message"
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <input class="main__button" type="button" value="Send" />
+          </form>
+        </section>
+        <section class="main__info">
+          <!-- ubicacion e informacion de como contactarnos -->
+          <img
+            class="main__icon"
+            src="../assets/icons8-location-24.png"
+            alt="location"
+          />
+          <p class="main__text">45 Smith st, Elmhurst NY 09099</p>
+          <img
+            class="main__icon"
+            src="./../assets/icons8-phone-24.png"
+            alt="phone"
+          />
+          <p class="main__text">1(453)555-4444</p>
+          <img
+            class="main__icon"
+            src="./../assets/icons8-mail-24.png"
+            alt="email"
+          />
+          <p class="main__text">ExotixHardware@exotix.com</p>
+        </section>
+      </main>
+      <!-- footer con enlaces a redes sociales y tienda amazon -->
+      <footer class="footer">
+        <img
+          class="footer__icon"
+          src="./../assets/icons8-facebook-50.png"
+          alt="facebook"
+        />
+        <img
+          class="footer__icon"
+          src="./../assets/icons8-linkedin-circled-50.png"
+          alt="linkedin"
+        />
+        <img
+          class="footer__icon"
+          src="./../assets/icons8-twitter-50.png"
+          alt="twitter"
+        />
+        <img
+          class="footer__icon"
+          src="./../assets/icons8-amazon-50.png"
+          alt="amazon"
+        />
+        <p class="footer__text">All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
