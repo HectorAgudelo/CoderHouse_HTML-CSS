@@ -7,8 +7,20 @@
   justify-content: center;
   margin: 60px 30px;
 }
-
+.main__intro{
+  display: none;
+}
+.card{
+  width: 70% !important;
+}
 .main__image {
+  width: 100% !important;
+  height: auto;
+  box-shadow: 5px 5px 10px 1px black;
+}
+
+
+/* .main__image {
   border-radius: 10%;
   width: 80%;
   height: auto;
@@ -19,15 +31,6 @@
   position: relative;
 }
 
-/* .main__text {
-  top: 550px;
-  margin: 40px 60px;
-  text-align: justify;
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #eeeeee;
-} */
-
 .main__text {
   top: 0px;
   margin: 40px 60px;
@@ -37,41 +40,80 @@
   animation: horizontalMovementFromRight 3s;
   animation-direction: normal;
   position:relative;
-}
+} */
 
 /* media queries */
 
 @media (max-width: 1200px) {
   .main {
-    margin: 40px 20px;
+    margin: 100px 20px;
   }
-  .main__text {
+
+  .main__intro{
+    display: none;
+  }
+
+  .card{
+    width: 100% !important;
+  }
+  /* .main__text {
     margin: 40px 60px;
     font-size: 20px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
   .main {
-    margin: 40px 20px;
+    margin: 0px 0px;
+    padding: 80px 0px;
+    background-image: url("./../assets/computer2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
   }
-  .main__text {
+
+  .main__intro{
+    display: block;
+    margin: 10px 20px;
+    height: 100%;
+  }
+
+  .main__title{
+    color: white;
+  }
+
+  .main__text{
+    color: white;
+  }
+  
+  .card{
+    display: none !important;
+  }
+  /* .main__text {
     margin: 40px 30px;
     font-size: 20px;
-  }
+  } */
 }
 
 @media (max-width: 320px) {
   .main {
-    margin: 35px 5px;
+    margin: 10px 5px;
+    padding: 10px 0px;
   }
-  .main__text {
+
+  .main__intro{
+    display: block;
+    margin: 20px 10px;
+  }
+  
+  /* .main__text {
     margin: 25px 30px;
     font-size: 15px;
-  }
+  } */
 }
 
-@keyframes horizontalMovementFromLeft {
+/* @keyframes horizontalMovementFromLeft {
   0% {right:500px }
   100% {right: 0px}
 }
@@ -79,4 +121,4 @@
 @keyframes horizontalMovementFromRight {
   0% {left:500px }
   100% {left: 0px}
-}
+} */
