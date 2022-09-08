@@ -19,19 +19,18 @@
   position: relative;
 }
 
-.main__text {
+/* .main__text {
   top: 550px;
   margin: 40px 60px;
   text-align: justify;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   color: #eeeeee;
-}
+} */
 
 .main__text {
   top: 0px;
   margin: 40px 60px;
-  text-align: justify;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   color: rgb(0, 0, 0);
