@@ -20,28 +20,6 @@
 }
 
 
-/* .main__image {
-  border-radius: 10%;
-  width: 80%;
-  height: auto;
-  box-shadow: 5px 5px 10px 1px black;
-  margin: 0 550px;
-  animation: horizontalMovementFromLeft 3s;
-  animation-direction: normal;
-  position: relative;
-}
-
-.main__text {
-  top: 0px;
-  margin: 40px 60px;
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
-  color: rgb(0, 0, 0);
-  animation: horizontalMovementFromRight 3s;
-  animation-direction: normal;
-  position:relative;
-} */
-
 /* media queries */
 
 @media (max-width: 1200px) {
@@ -108,18 +86,4 @@
     margin: 20px 10px;
   }
   
-  /* .main__text {
-    margin: 25px 30px;
-    font-size: 15px;
-  } */
 }
-
-/* @keyframes horizontalMovementFromLeft {
-  0% {right:500px }
-  100% {right: 0px}
-}
-
-@keyframes horizontalMovementFromRight {
-  0% {left:500px }
-  100% {left: 0px}
-} */
