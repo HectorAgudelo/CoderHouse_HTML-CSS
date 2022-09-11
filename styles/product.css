@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
 
-  background-image: url("./../assets/computer2.jpg");
+  background-image: url("./../assets/computer5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -28,6 +28,7 @@
   padding: 8px;
   box-shadow: 5px 5px 10px 1px black; 
   margin: 30px 0px; 
+  box-shadow: 0px 0px 15px 10px  #0dcaf0;
 }
 
 th,
@@ -54,13 +55,13 @@ th {
 
 @media (max-width: 1200px) {
   .main {
-    margin: 50px;
+    margin: 0px;
   }
 }
 
 @media (max-width: 768px) {
   .main {
-    margin: 10px 0px;
+    margin: 0px 0px;
   }
 
   .main__title {
@@ -81,7 +82,7 @@ th {
 
 @media (max-width: 320px) {
   .main {
-    margin: 10px 0px;
+    margin: 0px 0px;
   }
 
   .main__title {

@@ -16,7 +16,7 @@
 .main__image {
   width: 100% !important;
   height: auto;
-  box-shadow: 5px 5px 10px 1px black;
+  box-shadow: 0px 0px 15px 10px  #0dcaf0 !important;
 }
 
 
@@ -67,6 +67,7 @@
   
   .card{
     display: none !important;
+   
   }
   /* .main__text {
     margin: 40px 30px;

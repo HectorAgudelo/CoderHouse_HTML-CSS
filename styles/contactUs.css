@@ -6,7 +6,7 @@
   align-items: center;
   margin: 0px 0px;
   padding: 120px 0px;
-  background-image: url("./../assets/computer5.jpg");
+  background-image: url("./../assets/computer10.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -62,7 +62,8 @@
   font-size: 20px;
   margin: 0px;
   font-family: 'Times New Roman', Times, serif;
-  color: white;
+  color: black;
+font-weight: bolder;
 }
 
 
