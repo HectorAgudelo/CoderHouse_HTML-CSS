@@ -1,0 +1,178 @@
+/* bloque del contenido */
+.mainContactUs {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 120px 0px;
+    background-image: url("./../assets/computer10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .mainContactUs__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+    height: 500px;
+    margin: 0px 50px;
+  }
+  
+  .mainContactUs__input {
+    height: 40px;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  .mainContactUs__textArea {
+    margin: 0px 0px 20px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  .mainContactUs__button {
+    width: 70px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  
+  .mainContactUs__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 130px 50px;
+  }
+  
+  .mainContactUs__icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 50px;
+  
+  }
+  
+  .mainContactUs__text {
+    position: relative;
+    bottom: 32px;
+    font-size: 20px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  font-weight: bolder;
+  }
+  
+  
+  /* media queries */
+  
+  @media (max-width: 1200px) {
+    .mainContactUs {
+      margin: 0px 0px;
+      padding: 65px 0px;
+    }
+  
+    .mainContactUs__form {
+      width: 40vw;
+    }
+  
+    .mainContactUs__icon {
+      width: 25px;
+      height: 25px;
+      right: 35px;
+      bottom: 8px;
+    }
+  
+    .mainContactUs__info {
+      margin: 150px 50px;
+    }
+  
+    .mainContactUs__text {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mainContactUs {
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px 0px;
+      padding: 20px 0px;
+    }
+  
+    .mainContactUs__form {
+      width: 100vw;
+      height: auto;
+      align-items: center;
+      margin: 50px 0px 0px 0px;
+    }
+  
+    .mainContactUs__input {
+      width: 80vw;
+    }
+  
+    .mainContactUs__textArea {
+      width: 80vw;
+    }
+    .mainContactUs__info {
+      margin: 30px 0px;
+      align-items: center;
+      align-items: center;
+    }
+  
+    .mainContactUs__icon {
+      display: none;
+    }
+  
+    .mainContactUs__text {
+      bottom: 0px;
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .mainContactUs {
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px 0px;
+      padding: 50px 0px;
+    }
+  
+    .mainContactUs__form {
+      width: 100vw;
+      height: auto;
+      align-items: center;
+    }
+  
+    .mainContactUs__input {
+      width: 70vw;
+    }
+  
+    .mainContactUs__textArea {
+      width: 70vw;
+    }
+    .mainContactUs__button {
+      width: 50px;
+      height: auto;
+      font-size: 15px;
+    }
+    .mainContactUs__info {
+      margin-top: 20px;
+      align-items: center;
+      align-items: center;
+    }
+  
+    .mainContactUs__icon {
+      display: none;
+    }
+  
+    .mainContactUs__text {
+      bottom: 0px;
+      margin: 10px 20px 0px 20px;
+      font-size: 15px;
+    }
+  }
+  
