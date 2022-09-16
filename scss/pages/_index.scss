@@ -11,16 +11,18 @@
     background-position: center;
     background-size: cover;
     height: 80vh;
-  }  
-  .main__title{
-    margin: 0px 80px;
-    color: white;
-  }
 
-  .main__text{
-    margin: 0px 80px;
-    color: white;
-  }
+    &__title{
+      margin: 0px 80px;
+      color: white;
+    }
+
+    &__text{
+      margin: 0px 80px;
+      color: white;
+    }
+  }  
+
   
   /* media queries */
   
@@ -37,17 +39,17 @@
       background-position: center;
       background-size: cover;
       height: 100vh;
-    }
 
-    .main__title{
+      &__title{
         margin: 0px 40px;
 
       }
     
-      .main__text{
+      &__text{
         margin: 0px 40px;
       
       }
+    }
 
   }
   
@@ -56,16 +58,17 @@
       margin: 0px;
       padding: 0px;
 
-    }
-
-    .main__title{
+      &__title{
         margin: 0px 10px;
 
       }
-    
-      .main__text{
+
+      &__text{
         margin: 0px 10px;
       
       }
+    }
+
+
     
   }
