@@ -23,6 +23,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
@@ -32,15 +33,14 @@
 
   <body class="container1">
     <nav class="navbar navbar-expand-lg sticky-top bg-info header">
-      <div class="container-fluid bg-info">
-        <a class="navbar-brand navbar__brand" href="./index.html"><img
-          class="navbar__logo"
-          src="./assets/icons8-circuit-100.png"
-          alt="logo"
-        />
-        <span class="navbar__name">
-          Exotix Hardware
-        </span>
+      <div class="container-fluid bg-info elementsContainer">
+        <a class="navbar-brand navbar__brand" href="./index.html"
+          ><img
+            class="navbar__logo"
+            src="./assets/icons8-circuit-100.png"
+            alt="logo"
+          />
+          <span class="navbar__name"> Exotix Hardware </span>
         </a>
         <button
           class="navbar-toggler"
@@ -53,21 +53,36 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse  navbar__list" id="navbarNav">
+        <div class="collapse navbar-collapse navbar__list" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link nav-section fw-semibold" aria-current="page" href="./index.html"
+              <a
+                class="nav-link nav-section fw-semibold"
+                aria-current="page"
+                href="./index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-section fw-semibold" href="./pages/about.html">About</a>
+              <a
+                class="nav-link nav-section fw-semibold"
+                href="./pages/about.html"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-section fw-semibold" href="./pages/product.html">Products</a>
+              <a
+                class="nav-link nav-section fw-semibold"
+                href="./pages/product.html"
+                >Products</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-section fw-semibold" href="./pages/contactUs.html">Contact Us</a>
+              <a
+                class="nav-link nav-section fw-semibold"
+                href="./pages/contactUs.html"
+                >Contact Us</a
+              >
             </li>
           </ul>
         </div>
@@ -76,50 +91,52 @@
 
     <!--  informacion general de la compania  -->
     <main class="main">
-        <h5 class="main__title">Mission</h5>
-        <p class="main__text">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, officia
-          at? Consectetur modi, mollitia fugit debitis beatae quo eos, vel
-          cupiditate, deserunt consequuntur commodi autem quisquam deleniti
-          quaerat quos fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing
-          elit. Veritatis, odit. Praesentium, iure? Assumenda, quas nam? Quod
-          porro quaerat velit necessitatibus officiis nisi, quidem architecto
-          earum dignissimos animi, voluptatibus cum exercitationem? Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Omnis sapiente vitae a
-          aspernatur quam veritatis tenetur! Dolore, adipisci dolorem, nesciunt
-          accusamus veniam neque repellat qui rem sed corporis iste aperiam? Lorem
-          ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
-          accusantium odio officiis debitis, itaque nobis voluptatibus. Et maxime
-          tempora dolorem in eos corporis sed voluptate facere, mollitia sit,
-          repellendus vero.</p>
-        <p class="main__text"><small>Exotix Hardware</small></p>
+      <h5 class="main__title">Mission</h5>
+      <p class="main__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, officia
+        at? Consectetur modi, mollitia fugit debitis beatae quo eos, vel
+        cupiditate, deserunt consequuntur commodi autem quisquam deleniti
+        quaerat quos fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Veritatis, odit. Praesentium, iure? Assumenda, quas nam? Quod
+        porro quaerat velit necessitatibus officiis nisi, quidem architecto
+        earum dignissimos animi, voluptatibus cum exercitationem? Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Omnis sapiente vitae a
+        aspernatur quam veritatis tenetur! Dolore, adipisci dolorem, nesciunt
+        accusamus veniam neque repellat qui rem sed corporis iste aperiam? Lorem
+        ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
+        accusantium odio officiis debitis, itaque nobis voluptatibus. Et maxime
+        tempora dolorem in eos corporis sed voluptate facere, mollitia sit,
+        repellendus vero.
+      </p>
+      <p class="main__text"><small>Exotix Hardware</small></p>
     </main>
 
     <!-- footer con enlaces a redes sociales y tienda amazon -->
     <footer class="footer">
       <a href="https://www.facebook.com/login/" target="_blank">
         <img
-          class="footer__icon"
+          class="footer__icon sm-facebook"
           src="./assets/icons8-facebook-50.png"
           alt="facebook"
         />
       </a>
       <a href="https://www.linkedin.com/" target="_blank">
         <img
-          class="footer__icon"
+          class="footer__icon sm-linkedin"
           src="./assets/icons8-linkedin-circled-50.png"
           alt="linkedin"
         />
       </a>
       <a href="https://twitter.com/?lang=en" target="_blank">
         <img
-          class="footer__icon"
+          class="footer__icon sm-twitter"
           src="./assets/icons8-twitter-50.png"
           alt="twitter"
         />
       </a>
       <a href="https://www.amazon.com/" target="_blank">
         <img
-          class="footer__icon"
+          class="footer__icon sm-amazon"
           src="./assets/icons8-amazon-50.png"
           alt="amazon"
         />

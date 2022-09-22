@@ -1,71 +1,70 @@
 /* Barra de navegacion */
-.header{
-    grid-column: 1/-1;
-    top: 0;
-    z-index: 1;
-    box-shadow: 5px 5px 10px 1px $shadowPrimary;
-  }
-  
-  .nav-section{
+.header {
+  grid-column: 1/-1;
+  top: 0;
+  z-index: 1;
+  box-shadow: 5px 5px 10px 1px $shadowPrimary;
+}
+
+.elementsContainer {
+  @extend .containerWidth;
+}
+
+.nav-section {
+  transition: 1s ease !important;
+  margin: 0 20px;
+  border-radius: 20px;
+
+  &:hover {
+    transform: scale(1.05) !important;
     transition: 1s ease !important;
-    margin: 0 20px;
-    border-radius: 20px ;
-   
-    &:hover{  
-      transform: scale(1.05) !important;
-      transition: 1s ease !important;
-      color: black;
-      font-weight: bold !important;
-      border: 1px solid #0dcaf0 !important;
-      box-shadow: 5px 1px 10px 1px #6c6d6e;
-      background-color: #0dcaf0 !important;
-    }
-
+    color: black;
+    font-weight: bold !important;
+    border: 1px solid #0dcaf0 !important;
+    box-shadow: 5px 1px 10px 1px #6c6d6e;
+    background-color: #0dcaf0 !important;
   }
-  
-  .navbar__brand {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
+}
+
+.navbar__brand {
+  display: flex;
+  flex-direction: column;
+  @include flexProperties(center, center);
+  margin-left: 30px;
+  transition: 1s ease;
+
+  &:hover {
+    transform: scale(1.07);
     transition: 1s ease;
+  }
+}
 
-    &:hover{
-      transform: scale(1.07);
-      transition: 1s ease;
-    }
-  }
+.navbar__logo {
+  width: 35%;
+  height: auto;
+}
+.navbar__name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
 
-  .navbar__logo {
-    width: 35%;
-    height: auto;
-  }
-  .navbar__name {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .navbar__list{
-    justify-content: end !important;
-    margin: 30px;
-  }
+.navbar__list {
+  justify-content: end !important;
+  margin: 30px;
+}
 
-  
-  /* media queries */
+/* media queries */
 
 @media (max-width: 768px) {
-    .navbar__brand {
-      margin-left: 20px;
-    }
-    .navbar__logo {
-      width: 30%;
-      height: auto;
-    }
+  .navbar__brand {
+    margin-left: 20px;
+  }
+  .navbar__logo {
+    width: 30%;
+    height: auto;
+  }
+}
 
-  }
-  
-  @media (max-width: 320px) {
-  
-  }
+@media (max-width: 320px) {
+}
