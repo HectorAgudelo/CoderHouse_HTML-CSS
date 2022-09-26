@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://hectoragudelo.github.io/CoderHouse_HTML-CSS/sitemap.xml
+Sitemap: https://hectoragudelo.github.io/CoderHouse_HTML-CSS/sitemap.xmlls
