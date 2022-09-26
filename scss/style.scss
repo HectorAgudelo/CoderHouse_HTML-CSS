@@ -1,0 +1,15 @@
+
+//extends & mixins
+@import './components/globals';
+//variables
+@import './components/variables';
+// Components
+@import './components/header';
+@import './components/container';
+@import './components/footer';
+// pages
+@import './pages/about';
+@import './pages/contactUs';
+@import './pages/product';
+@import './pages/index';
+

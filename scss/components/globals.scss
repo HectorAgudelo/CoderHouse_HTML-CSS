@@ -1,0 +1,25 @@
+//extend
+.flexGrid {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerWidth {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+//mixins
+
+@mixin flexProperties($justify, $align) {
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin images($pic){
+  background-image: url($pic);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

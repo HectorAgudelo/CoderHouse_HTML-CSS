@@ -1,0 +1,99 @@
+/* bloque del contenido */
+.mainProduct {
+  @extend .flexGrid;
+  @include flexProperties(center, center);
+  @include images('./../assets/computer5.jpg');
+  padding: 30px;
+
+  &__title {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px 0px 30px 0px;
+    color: $textSecondary;
+  }
+
+  &__table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 8px;
+    box-shadow: 5px 5px 10px 1px $shadowPrimary;
+    margin: 30px 0px;
+    box-shadow: 0px 0px 15px 10px #0dcaf0;
+    @extend .containerWidth;
+  }
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: $textSecondary;
+}
+
+tr:nth-child(even) {
+  background-color: #5f6875;
+}
+tr:nth-child(odd) {
+  background-color: #393e46;
+}
+
+th {
+  background-color: #aad8d3;
+  color: $textPrimary;
+  font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  .mainProduct {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainProduct {
+    margin: 0px 0px;
+    &__title {
+      font-size: 30px;
+    }
+  }
+
+  th,
+  td {
+    padding: 5px;
+
+    font-size: 15px;
+  }
+
+  th {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .mainProduct {
+    margin: 0px 0px;
+
+    &__title {
+      font-size: 25px;
+    }
+
+    &__table {
+      padding: 3px;
+    }
+  }
+
+  th,
+  td {
+    padding: 0px;
+
+    font-size: 15px;
+  }
+
+  th {
+    font-size: 20px;
+  }
+}

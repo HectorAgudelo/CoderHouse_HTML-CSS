@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <title>Products</title>
+    <meta charset="utf-8" > 
     <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="description" content="Computer systems designed for every need and business. High quality components are used in the construction and configuration of our systems, so every user can get the most out of our products.">
+    <title>Exotix Hardware - Systems for Every Need</title>
     <link
       rel="shortcut icon"
       href="./../assets/icons8-circuit-100.png"
@@ -14,58 +15,82 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
-    <link rel="stylesheet" href="./../styles/product.css" >
-    <link rel="stylesheet" href="./../styles/generalStyles.css" />
+    <!-- <link rel="stylesheet" href="./../styles/product.css" >
+    <link rel="stylesheet" href="./../styles/generalStyles.css" /> -->
+    <link rel="stylesheet" href="./../css/style.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
   </head>
 
-  <body class="container">
-
-        <header class="header">
-      <!-- Barra de navegacion con logo -->
-      <a class="header__brandLink" href="./../index.html">
-        <div class="header__brand">
-          <img
-            class="header__logo"
+  <body class="container1">
+    <nav class="navbar navbar-expand-lg sticky-top bg-info header">
+      <div class="container-fluid bg-info elementsContainer">
+        <a class="navbar-brand navbar__brand" href="./../index.html"><img
+            class="navbar__logo"
             src="./../assets/icons8-circuit-100.png"
             alt="logo"
           />
-          <h3 class="header__name">Exotix Hardware</h3>
+          <span class="navbar__name">
+            Exotix Hardware
+          </span>
+          </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar__list" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav-section fw-semibold" aria-current="page" href="./../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-section fw-semibold" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-section fw-semibold" href="./product.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-section fw-semibold" href="./contactUs.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </a>
-
-      <input type="checkbox" id="header-toggle" />
-      <label class="header-icon" for="header-toggle">
-        <a id="header-icon">
-          <i class="fa fa-bars"></i>
-        </a>
-      </label>
-
-      <nav class="header__nav">
-        <ul class="header__list">
-          <a class="header__section" href="./../index.html">Home</a>
-          <a class="header__section" href="./about.html">About</a>
-          <a class="header__section" href="./product.html">Products</a>
-          <a class="header__section" href="./contactUs.html">Contact Us</a>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <h1 class="main__title">Systems We Build</h1>
+      </div>
+    </nav>
+    <mainProduct class="mainProduct">
+      <h1 class="mainProduct__title">Systems We Build</h1>
       <!-- tabla con infomacion sobre diferentes systemas, sus caracteristicas y precios -->
-      <table class="main__table">
+      <table class="mainProduct__table">
         <tr>
           <th>Systems</th>
           <th>Specs</th>
           <th>Cost</th>
         </tr>
         <tr>
-          <td>Dragon Titan</td>
+          <td>Dragon Titan 13"</td>
           <td>
             <ul>
-              <li>Disk</li>
-              <li>Ram</li>
-              <li>Video Card</li>
-              <li>Processor</li>
+              <li>ssd 500GB</li>
+              <li>16GB DDR4 3200 GHz</li>
+              <li>GPU: Radeon R7(Core Graphics)</li>
+              <li>AMD Ryzen 5 3.9GHz</li>
               <li>Fan</li>
               <li>Power Plan</li>
               <li>Mother Board</li>
@@ -74,13 +99,13 @@
           <td>$600</td>
         </tr>
         <tr>
-          <td>Caliber I</td>
+          <td>Caliber I 15"</td>
           <td>
             <ul>
-                <li>Disk</li>
-                <li>Ram</li>
-                <li>Video Card</li>
-                <li>Processor</li>
+                <li>ssd 500GB</li>
+                <li>32GB DDR4 3200 GHz</li>
+                <li>NVIDIA GeForce RTX 3050</li>
+                <li>AMD Ryzen 7 4.9 GHz</li>
                 <li>Fan</li>
                 <li>Power Plan</li>
                 <li>Mother Board</li>
@@ -89,13 +114,13 @@
           <td>$900</td>
         </tr>
         <tr>
-          <td>Caliber II</td>
+          <td>Caliber II 17"</td>
           <td>
             <ul>
-                <li>Disk</li>
-                <li>Ram</li>
-                <li>Video Card</li>
-                <li>Processor</li>
+                <li>ssd 1TB</li>
+                <li>46GB DDR4 3200 GHz</li>
+                <li>NVIDIA GeForce RTX 3060 Ti 8GB</li>
+                <li>INTEL Core i7 5.9 GHz</li>
                 <li>Fan</li>
                 <li>Power Plan</li>
                 <li>Mother Board</li>
@@ -104,13 +129,13 @@
           <td>$1200</td>
         </tr>
         <tr>
-          <td>Reaper TX</td>
+          <td>Reaper TX 17"</td>
           <td>
             <ul>
-                <li>Disk</li>
-                <li>Ram</li>
-                <li>Video Card</li>
-                <li>Processor</li>
+                <li>ssd 1TB</li>
+                <li>100GB DDR4 3200 GHz</li>
+                <li>NVIDIA GeForce RTX 3080Ti 16GB GDDR6</li>
+                <li>INTEL Core i9 6.9 GHz</li>
                 <li>Fan</li>
                 <li>Power Plan</li>
                 <li>Mother Board</li>
@@ -119,33 +144,33 @@
           <td>$1500</td>
         </tr>
       </table>
-    </main>
+    </mainProduct>
     <!-- footer con enlaces a redes sociales y tienda amazon -->
     <footer class="footer">
       <a href="https://www.facebook.com/login/" target="_blank">
           <img
-      class="footer__icon"
+      class="footer__icon sm-facebook"
       src="./../assets/icons8-facebook-50.png"
       alt="facebook"
     />
       </a>
     <a href="https://www.linkedin.com/" target="_blank">
         <img
-      class="footer__icon"
+      class="footer__icon sm-linkedin"
       src="./../assets/icons8-linkedin-circled-50.png"
       alt="linkedin"
     />
     </a>
   <a href="https://twitter.com/?lang=en" target="_blank">
     <img
-      class="footer__icon"
+      class="footer__icon sm-twitter"
       src="./../assets/icons8-twitter-50.png"
       alt="twitter"
     />
   </a>
     <a href="https://www.amazon.com/" target="_blank">
          <img
-      class="footer__icon"
+      class="footer__icon sm-amazon"
       src="./../assets/icons8-amazon-50.png"
       alt="amazon"
     />

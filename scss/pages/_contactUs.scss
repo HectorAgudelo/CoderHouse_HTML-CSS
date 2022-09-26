@@ -1,0 +1,184 @@
+/* bloque del contenido */
+.mainContactUs {
+  @extend .flexGrid;
+  @include flexProperties(space-evenly, center);
+  margin: 0px 0px;
+  padding: 120px 0px;
+  @include images('./../assets/computer10.jpg');
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 650px;
+    height: 500px;
+    margin: 0px 50px;
+  }
+
+  &__input {
+    height: 40px;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  &__textArea {
+    margin: 0px 0px 20px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  &__button {
+    width: 70px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  &__button {
+    width: 70px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 130px 50px;
+  }
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 50px;
+  }
+
+  &__text {
+    position: relative;
+    bottom: 32px;
+    font-size: 20px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: $textPrimary;
+    font-weight: bolder;
+  }
+}
+.contantEleCont{
+  @extend .containerWidth;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+  .mainContactUs {
+    margin: 0px 0px;
+    padding: 65px 0px;
+
+    &__form {
+      width: 40vw;
+    }
+
+    &__icon {
+      width: 25px;
+      height: 25px;
+      right: 35px;
+      bottom: 8px;
+    }
+
+    &__info {
+      margin: 150px 50px;
+    }
+
+    &__text {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .mainContactUs {
+    padding: 115px 0px;
+  }
+};
+
+@media (max-width: 768px) {
+  .mainContactUs {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0px;
+    padding: 36px 0px;
+
+    &__form {
+      width: 100vw;
+      height: auto;
+      align-items: center;
+      margin: 50px 0px 0px 0px;
+    }
+
+    &__input {
+      width: 80vw;
+    }
+
+    &__textArea {
+      width: 80vw;
+    }
+
+    &__info {
+      margin: 30px 0px;
+      align-items: center;
+      align-items: center;
+    }
+
+    &__icon {
+      display: none;
+    }
+
+    &__text {
+      bottom: 0px;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .mainContactUs {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 0px;
+    padding: 50px 0px;
+
+    &__form {
+      width: 100vw;
+      height: auto;
+      align-items: center;
+    }
+
+    &__input {
+      width: 70vw;
+    }
+    &__textArea {
+      width: 70vw;
+    }
+    &__button {
+      width: 50px;
+      height: auto;
+      font-size: 15px;
+    }
+    &__info {
+      margin-top: 20px;
+      align-items: center;
+      align-items: center;
+    }
+    &__icon {
+      display: none;
+    }
+    &__text {
+      bottom: 0px;
+      margin: 10px 20px 0px 20px;
+      font-size: 15px;
+    }
+  }
+}

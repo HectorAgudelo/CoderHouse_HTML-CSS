@@ -1,0 +1,22 @@
+{
+  "name": "hectoragudelo-gamingpcs",
+  "version": "1.0.0",
+  "description": "Proyecto para CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorAgudelo/CoderHouse_HTML-CSS.git"
+  },
+  "author": "Hector Agudelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HectorAgudelo/CoderHouse_HTML-CSS/issues"
+  },
+  "homepage": "https://github.com/HectorAgudelo/CoderHouse_HTML-CSS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
