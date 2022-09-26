@@ -98,12 +98,18 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .mainContactUs {
+    padding: 115px 0px;
+  }
+};
+
 @media (max-width: 768px) {
   .mainContactUs {
     flex-direction: column;
     justify-content: center;
     margin: 0px 0px;
-    padding: 20px 0px;
+    padding: 36px 0px;
 
     &__form {
       width: 100vw;
