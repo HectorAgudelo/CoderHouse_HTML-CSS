@@ -56,6 +56,24 @@
 
 /* media queries */
 
+@media (max-width: 991px) {
+  .nav-section {
+    transition: none !important;
+    // margin: 0 20px;
+    // border-radius: 20px;
+
+    &:hover {
+      transform: none !important;
+      transition: none !important;
+      color: black;
+      font-weight: bold !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: #0dcaf0 !important;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .navbar__brand {
     margin-left: 20px;
