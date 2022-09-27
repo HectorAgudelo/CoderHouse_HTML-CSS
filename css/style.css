@@ -373,9 +373,14 @@ th {
 
 @media (max-width: 768px) {
   .mainProduct {
+    padding: 0px;
     margin: 0px 0px; }
     .mainProduct__title {
       font-size: 30px; }
+    .mainProduct__table {
+      padding: 3px;
+      width: 90%;
+      height: 90%; }
   th,
   td {
     padding: 5px;
@@ -389,7 +394,8 @@ th {
     .mainProduct__title {
       font-size: 25px; }
     .mainProduct__table {
-      padding: 3px; }
+      padding: 3px;
+      width: 100%; }
   th,
   td {
     padding: 0px;
