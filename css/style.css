@@ -226,7 +226,10 @@
     width: 70px;
     height: 40px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px; }
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
   .mainContactUs__info {
     display: flex;
     flex-direction: column;

@@ -33,8 +33,10 @@
     height: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
-
 
   &__info {
     display: flex;
@@ -60,7 +62,7 @@
     font-weight: bolder;
   }
 }
-.contantEleCont{
+.contantEleCont {
   @extend .containerWidth;
 }
 
@@ -96,7 +98,7 @@
   .mainContactUs {
     padding: 115px 0px;
   }
-};
+}
 
 @media (max-width: 768px) {
   .mainContactUs {
