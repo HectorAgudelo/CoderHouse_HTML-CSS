@@ -227,11 +227,6 @@
     height: 40px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px; }
-  .mainContactUs__button {
-    width: 70px;
-    height: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px; }
   .mainContactUs__info {
     display: flex;
     flex-direction: column;
