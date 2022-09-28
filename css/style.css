@@ -158,10 +158,18 @@
 
 .card {
   transition: 1s ease;
-  box-shadow: 0px 0px 15px 2px  #0dcaf0 !important; }
+  box-shadow: 0px 0px 15px 2px #0dcaf0 !important; }
   .card:hover {
     transform: scale(1.07);
     transition: 1s ease; }
+  .card__link {
+    text-decoration: none;
+    color: #0dcaf0; }
+    .card__link:hover {
+      color: #393e46; }
+
+.card-body {
+  background-color: #aad8d3; }
 
 @media (max-width: 1200px) {
   .mainAbout__title {
@@ -347,6 +355,11 @@
     box-shadow: 5px 5px 10px 1px #000000;
     margin: 30px 0px;
     box-shadow: 0px 0px 15px 10px #0dcaf0; }
+  .mainProduct__link {
+    color: #ffffff;
+    text-decoration: none; }
+    .mainProduct__link:hover {
+      color: #aad8d3; }
 
 th,
 td {
